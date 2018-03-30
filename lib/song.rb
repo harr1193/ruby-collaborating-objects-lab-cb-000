@@ -10,6 +10,7 @@ class Song
     name = parse[0]
     song_name = parse[1]
     song = self.new(song_name)
+    song.artist_name = name
     song
   end
 end
